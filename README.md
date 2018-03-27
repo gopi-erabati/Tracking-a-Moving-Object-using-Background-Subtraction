@@ -1,0 +1,5 @@
+# Tracking-a-Moving-Object-using-Background-Subtraction
+
+Video tracking is the process of locating a moving object (or multiple objects) over time using a camera. It has a variety of uses, some of which are: human-computer interaction, security and surveillance, video communication and compression, augmented reality, traffic control, medical imaging and video editing. Video tracking can be a time consuming process due to the amount of data that is contained in video. 
+
+Background subtraction is a simple and effective technique which is generally used to initialize the tracker. It can be used as an initial step to detect people or vehicles. It is based on a model of the scene background which is a static image which is then used to track objects in the frames using difference of the frame and background model. So, here we should estimate a model of background and there are different methods to estimate this background model. The methods include frame differencing (FD), running average Gaussian (RAG) and Eigen background (EB) models.
